@@ -1,0 +1,37 @@
+/* tablet */
+
+@media (max-width: 768px) {
+    .navright > ul {
+        display: none;
+    }
+
+    .navright > img {
+        width: 25px;
+        display: inline;
+    }
+
+    .main-1_top {
+        flex-direction: column-reverse;
+    }
+
+    .main-3_cards {
+        grid-template-columns: repeat(1, 208px);
+        justify-content: center;
+    }
+
+    .wrapper-4 {
+        flex-direction: column;
+    }
+}
+
+
+/* mobile */
+
+@media (max-width: 425) {
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+}
